@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: url(./WIP\ Dark.png);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.contextmenu {
+    background-color: #202020;
+    /* height: 45%; */
+    width: 230px;
+    border-radius: 1rem;
+    color: white;
+    overflow: hidden;
+    position: absolute;
+    display: none;
+
+
+}
+
+.element {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 0.5rem;
+
+}
+
+.text {
+    font-size: 0.8rem;
+}
+
+.line {
+    width: 100%;
+    height: 0.9px;
+    background-color: rgba(255, 255, 255, 0.288);
+}
+
+.taskbar {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(22, 22, 22);
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+}
+
+
+
+.taskbar .icons {
+    height: 1.8rem;
+    width: 1.8rem
+}
+
+.gpt img {
+    filter: invert(1);
+}
